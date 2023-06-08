@@ -4,18 +4,51 @@ The repository is for our paper [HQ-50K: A Large-scale, High-quality Dataset for
 
 [Paper]() | [Dataset](https://huggingface.co/datasets/YangQiee/HQ-50K) | [Pretrained models]()
 
-<img src="figures/network.png" width="800px"/>
+<img src="figures/visualization-1.png" width="800px"/>
 
 ### TODO
 - [ ] Pretrained models
 - [ ] Code release
 - [x] ~~Dataset release~~
 - [x] ~~Update link to paper and project page~~
-## HQ-50K Dataset
-HQ-50K is a large-scale image restoration dataset with high-quality images with rich texture details and semantic diversity, which considers the five aspects simultaneously : *Large-Scale*, *High-Resolution*, *Compression Rates*, *Rich texture details* and *Semantic Coverage*.  Additionally, we also offer 1250 test images that span across various semantic categories and frequency ranges. This new benchmark can facilitate detailed and fine-grained performance comparison and analysis.
 
-## Get the Dataset
+50,000 high-quality images with rich texture details and semantic diversity
+
+## Introduction
+HQ-50K a large-scale and high-quality image restoration dataset which contains 50,000 high-quality images with rich texture details and semantic diversity, considering the five aspects simultaneously : *Large-Scale*, *High-Resolution*, *Compression Rates*, *Rich texture details* and *Semantic Coverage*. We also present a new Degradation-Aware Mixture of Expert (**DAMoE**) model, which enables a single model to handle multiple corruption types and unknown levels.
+## HQ-50K Dataset
+In addition to the 50,000 images for training, we also offer 1250 test images that span across various semantic categories and frequency ranges. This new benchmark can facilitate detailed and fine-grained performance comparison and analysis.
+
+### Get the Dataset
 1. Download the dataset from [HQ-50K](https://huggingface.co/datasets/YangQiee/HQ-50K) by [img2dataset](https://github.com/rom1504/img2dataset).
+The HQ-50K is built as the following folder structure, you can extract it by [scripts](https://github.com/rom1504/img2dataset).
+```
+│HQ-50K/
+├──train/
+│  ├── the first  image url
+│  ├── the second image url 
+│  ├── ......  
+│  ├── ......  
+│  ├── 50000th    image url
+├──val/
+│  ├── animal
+│  │   ├── ......
+│  ├── architcture
+│  │   ├── ......
+
+│  ├── ......
+```
 2. Generate paired data corresponding to each task [DataPrepare]().
+
+## DAMoE Model
+<img src="figures/backbone.png" width="800px"/>
+Waiting for the Codes
+
+
+
+
+## License and Acknowledgement
+The dataset is released under the CC-BY-4.0 license. And the codes are based on KAIR and Fastmoe. Please also follow their licenses. Thanks for their awesome works.
+
 
 

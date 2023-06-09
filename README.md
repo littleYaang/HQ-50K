@@ -1,8 +1,8 @@
 # HQ-50K
 HQ-50K: A Large-scale, High-quality Dataset for Image Restoration.
-The repository is for our paper [HQ-50K: A Large-scale, High-quality Dataset for Image Restoration]().
+The repository is for our paper [HQ-50K: A Large-scale, High-quality Dataset for Image Restoration](https://arxiv.org/abs/2306.05390).
 
-[Paper]() | [Dataset](https://huggingface.co/datasets/YangQiee/HQ-50K) | [Pretrained models]()
+[Paper](https://arxiv.org/abs/2306.05390) | [Dataset](https://huggingface.co/datasets/YangQiee/HQ-50K) | [Pretrained models]()
 
 <img src="figures/visualization-1.png" width="800px"/>
 
@@ -42,10 +42,20 @@ The HQ-50K is built as the following folder structure, you can extract it by [sc
 
 ## DAMoE Model
 <img src="figures/backbone.png" width="800px"/>
-Waiting for the Codes
+Coming Soon
 
 
-
+## Cite HQ-50K
+```
+@misc{yang2023hq50k,
+      title={HQ-50K: A Large-scale, High-quality Dataset for Image Restoration}, 
+      author={Qinhong Yang and Dongdong Chen and Zhentao Tan and Qiankun Liu and Qi Chu and Jianmin Bao and Lu Yuan and Gang Hua and Nenghai Yu},
+      year={2023},
+      eprint={2306.05390},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## License and Acknowledgement
 The dataset is released under the CC-BY-4.0 license. And the codes are based on KAIR and Fastmoe. Please also follow their licenses. Thanks for their awesome works.

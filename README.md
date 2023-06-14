@@ -21,7 +21,7 @@ In addition to the 50,000 images for training, we also offer 1250 test images th
 
 ### Get the Dataset
 1. Download the dataset from [HQ-50K](https://huggingface.co/datasets/YangQiee/HQ-50K) by [img2dataset](https://github.com/rom1504/img2dataset).
-The HQ-50K is built as the following folder structure, you can extract it by [scripts](https://github.com/rom1504/img2dataset).
+The HQ-50K is built as the following folder structure, you can extract it by [scripts](https://github.com/littleYaang/HQ-50K/blob/main/data_preprocess/README.md).
 ```
 │HQ-50K/
 ├──train/

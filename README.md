@@ -58,7 +58,7 @@ Coming Soon
 ```
 
 ## License and Acknowledgement
-The dataset is released under the CC-BY-4.0 license. And the codes are based on KAIR and Fastmoe. Please also follow their licenses. Thanks for their awesome works.
+The dataset is released under the CC-BY-4.0 license. And the codes are based on KAIR and Fastmoe. Please also follow their licenses. Thanks for their awesome works. 
 
 
 

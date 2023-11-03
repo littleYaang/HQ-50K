@@ -38,7 +38,12 @@ The HQ-50K is built as the following folder structure, you can extract it by [sc
 
 │  ├── ......
 ```
+
+If the full dataset is not available due to packet loss, we provide [alternative ways](https://github.com/littleYaang/HQ-50K/blob/main/data_preprocess/README.md) for dataset download.
+
 2. Generate paired data corresponding to each task [DataPrepare]().
+
+
 
 ## DAMoE Model
 <img src="figures/backbone.png" width="800px"/>

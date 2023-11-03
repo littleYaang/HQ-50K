@@ -1,6 +1,6 @@
 # Download and Pre-Process
 
-## Download
+## Download by urls
 Use the [img2dataset](https://github.com/rom1504/img2dataset) to download the train/test dataset. 
 
 Example to run the tool:
@@ -19,6 +19,20 @@ to:
                     parse_options = csv_pq.ParseOptions(delimiter='\t')
                     df = csv_pq.read_csv(file, read_options=csv_pq.ReadOptions(column_names=["url"]),parse_options = parse_options)
 
+```
+### Download via Baidu Cloud
+|  DATASET   | LINK  |
+|  ----  | ----  | 
+| HQ-TRAIN  | [BAIDU CLOUD](https://pan.baidu.com/s/1c_KS6T1lv1EE03n4dSzTvg?pwd=hq50)(passwd:hq50)   |
+| HQ-TEST  | [BAIDU CLOUD](https://pan.baidu.com/s/1JkKsW1qomfPkPAJ-SpYDIg?pwd=hq50)(passwd:hq50)  |
+### Download via Azure Storage
+*hq-50k :training dataset*
+```
+azcopy copy https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TRAIN_BICUBIC/?sv=2021-08-06&st=2023-11-03T06%3A05%3A22Z&se=2031-12-04T06%3A05%3A00Z&sr=c&sp=rl&sig=XlgPo%2FN4EQFFYVUReeCFxKQ5VwRExwFeLuFbZtAP2Zo%3D $DATA_PATH$ --recursive 
+```
+*hq-50k :test dataset*
+```
+azcopy copy https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TEST_BICUBIC/?sv=2021-08-06&st=2023-11-03T06%3A05%3A22Z&se=2031-12-04T06%3A05%3A00Z&sr=c&sp=rl&sig=XlgPo%2FN4EQFFYVUReeCFxKQ5VwRExwFeLuFbZtAP2Zo%3D $DATA_PATH$ --recursive 
 ```
 
 ## Pre-Propross

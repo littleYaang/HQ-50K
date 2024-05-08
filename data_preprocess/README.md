@@ -28,11 +28,11 @@ to:
 ### Download via Azure Storage
 *hq-50k :training dataset*
 ```
-azcopy copy https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TRAIN_BICUBIC/?sv=2021-08-06&st=2023-11-03T06%3A05%3A22Z&se=2031-12-04T06%3A05%3A00Z&sr=c&sp=rl&sig=XlgPo%2FN4EQFFYVUReeCFxKQ5VwRExwFeLuFbZtAP2Zo%3D $DATA_PATH$ --recursive 
+azcopy copy "https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TRAIN_BICUBIC/?sv=2023-01-03&st=2024-05-08T10%3A46%3A59Z&se=2025-05-09T10%3A46%3A00Z&sr=c&sp=r&sig=gGG%2FpcpELU4KTWwiqsZYAjszuyaNsL9UpQUtEXN%2FNzA%3D" $DATA_PATH$ --recursive 
 ```
 *hq-50k :test dataset*
 ```
-azcopy copy https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TEST_BICUBIC/?sv=2021-08-06&st=2023-11-03T06%3A05%3A22Z&se=2031-12-04T06%3A05%3A00Z&sr=c&sp=rl&sig=XlgPo%2FN4EQFFYVUReeCFxKQ5VwRExwFeLuFbZtAP2Zo%3D $DATA_PATH$ --recursive 
+azcopy copy "https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TEST_BICUBIC/?sv=2023-01-03&st=2024-05-08T10%3A46%3A59Z&se=2025-05-09T10%3A46%3A00Z&sr=c&sp=r&sig=gGG%2FpcpELU4KTWwiqsZYAjszuyaNsL9UpQUtEXN%2FNzA%3D" $DATA_PATH$ --recursive 
 ```
 
 ## Pre-Propross

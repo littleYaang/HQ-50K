@@ -23,17 +23,9 @@ to:
 ### Download via Baidu Cloud
 |  DATASET   | LINK  |
 |  ----  | ----  | 
-| HQ-TRAIN  | [BAIDU CLOUD](https://pan.baidu.com/s/1c_KS6T1lv1EE03n4dSzTvg?pwd=hq50)(passwd:hq50)   |
-| HQ-TEST  | [BAIDU CLOUD](https://pan.baidu.com/s/1JkKsW1qomfPkPAJ-SpYDIg?pwd=hq50)(passwd:hq50)  |
-### Download via Azure Storage
-*hq-50k :training dataset*
-```
-azcopy copy "https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TRAIN_BICUBIC/?sv=2023-01-03&st=2024-05-08T10%3A46%3A59Z&se=2025-05-09T10%3A46%3A00Z&sr=c&sp=r&sig=gGG%2FpcpELU4KTWwiqsZYAjszuyaNsL9UpQUtEXN%2FNzA%3D" $DATA_PATH$ --recursive 
-```
-*hq-50k :test dataset*
-```
-azcopy copy "https://interndatasetsv2.blob.core.windows.net/laion-hr/HQ-50K/TEST_BICUBIC/?sv=2023-01-03&st=2024-05-08T10%3A46%3A59Z&se=2025-05-09T10%3A46%3A00Z&sr=c&sp=r&sig=gGG%2FpcpELU4KTWwiqsZYAjszuyaNsL9UpQUtEXN%2FNzA%3D" $DATA_PATH$ --recursive 
-```
+| HQ-TRAIN  | [BAIDU CLOUD](https://pan.baidu.com/s/14NT4OCuJN_JmE6SifSLLAw?pwd=hq50)(passwd:hq50)   |
+| HQ-TEST  | [BAIDU CLOUD](https://pan.baidu.com/s/105nxyWPBh_yqJ1HMKPQ0OA?pwd=hq50)(passwd:hq50)  |
+
 
 ## Pre-Propross
 ### 1.Generate LR images
